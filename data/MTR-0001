@@ -1,0 +1,26 @@
+{
+  "motor_id": "MTR-000001",
+  "serial_number": "SN-000001",
+  "model": "Prototype Motor",
+  "test_date": "11-Aug-2026",
+
+  "tests": {
+    "no_load": "PASS",
+    "high_speed": "PASS",
+    "performance": "PASS",
+    "heat_run": "PASS",
+    "insulation": "PASS"
+  },
+
+  "readings": {
+    "voltage": "27 V",
+    "current": "7.3 A",
+    "rpm": "13000",
+    "torque": "2.9 kgf/m",
+    "temperature": "45.8 °C"
+  },
+
+  "overall_result": "PASS",
+
+  "remarks": "Prototype test report"
+}
