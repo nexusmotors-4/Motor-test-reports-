@@ -114,11 +114,6 @@ th {
 </div>
 
 <div class="item">
-<div class="label">Serial Number</div>
-<div class="value" id="serialNumber">-</div>
-</div>
-
-<div class="item">
 <div class="label">Model</div>
 <div class="value" id="model">-</div>
 </div>
@@ -164,8 +159,8 @@ th {
 </tr>
 
 <tr>
-<td>Insulation Test</td>
-<td id="insulation">-</td>
+<td>Endurance Test</td>
+<td id="endurance">-</td>
 </tr>
 
 </table>
@@ -257,9 +252,6 @@ if (!motorID) {
         document.getElementById("motorID").innerText =
             data.motor_id;
 
-        document.getElementById("serialNumber").innerText =
-            data.serial_number;
-
         document.getElementById("model").innerText =
             data.model;
 
@@ -278,7 +270,7 @@ if (!motorID) {
         document.getElementById("heatRun").innerText =
             data.tests.heat_run;
 
-        document.getElementById("insulation").innerText =
+        document.getElementById("endurance").innerText =
             data.tests.insulation;
 
         document.getElementById("voltage").innerText =

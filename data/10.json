@@ -1,0 +1,22 @@
+{
+  "motor_id": "10",
+  "serial_number": "N/A",
+  "model": "NEXUS-BLDC-MOTOR",
+  "test_date": "2026-08-20",
+  "tests": {
+    "no_load": "FAIL",
+    "high_speed": "FAIL",
+    "performance": "FAIL",
+    "heat_run": "FAIL",
+    "endurance": "FAIL"
+  },
+  "readings": {
+    "voltage": 31.99,
+    "current": 0.94,
+    "rpm": 2100.0,
+    "torque": "N/A",
+    "temperature": "N/A"
+  },
+  "overall_result": "FAIL",
+  "remarks": "NO LOAD TEST: Voltage avg (31.95V) out of spec [27.0-27.0V]; RPM avg (4295) out of range [12740-13260] | HIGH SPEED TEST REPORT: Voltage avg (31.82V) out of spec [27.0-27.0V]; RPM avg (14501) out of range [8820-9180] | PERFORMANCE TEST: Voltage avg (31.92V) out of spec [26.0-28.0V]; RPM avg (6746) out of range [7400-8200] | HEAT RUN TEST: Voltage avg (31.92V) out of spec [26.0-28.0V]; RPM avg (7620) out of range [8820-9180] | ENDURANCE TEST: Voltage avg (31.98V) out of spec [27.0-27.0V]; RPM avg (2640) out of range [7400-8200]"
+}
