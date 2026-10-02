@@ -1,0 +1,22 @@
+{
+  "motor_id": "09",
+  "serial_number": "N/A",
+  "model": "N/A",
+  "test_date": "2026-08-20",
+  "tests": {
+    "no_load": "PASS",
+    "high_speed": "PASS",
+    "performance": "PASS",
+    "heat_run": "PASS",
+    "insulation": "N/A"
+  },
+  "readings": {
+    "voltage": 31.98,
+    "current": 1.08,
+    "rpm": 3540.0,
+    "torque": 0.0,
+    "temperature": 0.0
+  },
+  "overall_result": "PASS",
+  "remarks": "Endurance Test data is recorded in the full Word report but not shown here. Insulation Test is not part of the automated sequence."
+}
